@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(name = "Index", urlPatterns = {"/Index"})
 public class Index extends HttpServlet {
 
+    //request.getContextPath()
     
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -23,7 +24,7 @@ public class Index extends HttpServlet {
             out.println("<title>Servlet Index</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h2>Servlet Index at " + request.getContextPath() + "</h2>");
+            out.println("<h2>Servlet Index at " +   "</h2>");
             out.println("</body>");
             out.println("</html>");
         } finally {
