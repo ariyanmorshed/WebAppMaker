@@ -23,7 +23,7 @@ public class Index extends HttpServlet {
             out.println("<title>Servlet Index</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet Index at " + request.getContextPath() + "</h1>");
+            out.println("<h2>Servlet Index at " + request.getContextPath() + "</h2>");
             out.println("</body>");
             out.println("</html>");
         } finally {

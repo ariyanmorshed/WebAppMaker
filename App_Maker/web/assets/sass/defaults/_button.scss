@@ -1,0 +1,17 @@
+/***Button***/
+.btn1{
+	display: inline-block;
+	position: relative;
+	padding: 0 30px;
+	line-height: 50px;
+	height: 50px;
+	background: #f8f8f8;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #000;
+	cursor: pointer;
+	&:hover{
+		background:#f1f1f1;
+		color: #000;
+	}
+}

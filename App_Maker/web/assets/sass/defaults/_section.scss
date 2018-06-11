@@ -1,0 +1,26 @@
+/*** Section ***/
+.section{
+	padding: $section 0;
+	@include res(m992) { padding:$section+(-25) 0 ;}
+	@include res(m768) { padding:$section+(-40) 0;}
+}
+.section2{
+	padding: $section 0 $section+(-30);
+	@include res(m992) { padding:$section+(-25) 0 $section+(-55);}
+	@include res(m768) { padding:$section+(-40) 0 $section+(-70);}
+}
+.section3{
+	padding: $section+(-30) 0 $section;
+	@include res(m992) { padding: $section+(-55) 0 $section+(-25);}
+	@include res(m768) { padding: $section+(-70) 0 $section+(-40);}
+}
+.section4{
+	padding-bottom:  $section;
+	@include res(m992) { padding-bottom: $section+(-25);}
+	@include res(m768) { padding-bottom: $section+(-40);}
+}
+.section5{
+	padding-top: $section;
+	@include res(m992) { padding-top:$section+(-25);}
+	@include res(m768) { padding-top:$section+(-40);}
+}
