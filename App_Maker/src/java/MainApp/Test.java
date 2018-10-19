@@ -10,5 +10,7 @@ package MainApp;
  * @author Ariful
  */
 public class Test {
-    
+    public void tset(){
+        System.out.println("Hello");
+    }
 }
